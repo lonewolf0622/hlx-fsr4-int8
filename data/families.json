@@ -1,0 +1,402 @@
+{
+ "std1080": {
+  "offsets": "offsets.json",
+  "pkldir": "passes",
+  "passes": {
+   "p1": {
+    "shader": 520,
+    "kind": "cnx",
+    "W": 960,
+    "H": 540,
+    "C": 16
+   },
+   "p2": {
+    "shader": 543,
+    "kind": "cnx",
+    "W": 960,
+    "H": 540,
+    "C": 16
+   },
+   "p3": {
+    "shader": 535,
+    "kind": "ds",
+    "W": 480,
+    "H": 270,
+    "C": 32
+   },
+   "p4": {
+    "shader": 353,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 32
+   },
+   "p5": {
+    "shader": 603,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 32
+   },
+   "p6": {
+    "shader": 673,
+    "kind": "ds",
+    "W": 240,
+    "H": 135,
+    "C": 64
+   },
+   "p7": {
+    "shader": 689,
+    "kind": "fnb",
+    "W": 240,
+    "H": 135,
+    "C": 64
+   },
+   "p8": {
+    "shader": 601,
+    "kind": "fnb",
+    "W": 240,
+    "H": 135,
+    "C": 64
+   },
+   "p9": {
+    "shader": 667,
+    "kind": "ct",
+    "W": 240,
+    "H": 135,
+    "C": 64
+   },
+   "p10": {
+    "shader": 338,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 32
+   },
+   "p11": {
+    "shader": 522,
+    "kind": "ct",
+    "W": 480,
+    "H": 270,
+    "C": 32
+   },
+   "p12": {
+    "shader": 614,
+    "kind": "cnx",
+    "W": 960,
+    "H": 540,
+    "C": 16
+   }
+  },
+  "blob": "0"
+ },
+ "std4k": {
+  "offsets": "offsets_m.json",
+  "pkldir": "passes_m",
+  "passes": {
+   "p1": {
+    "shader": 684,
+    "kind": "cnx",
+    "W": 1920,
+    "H": 1080,
+    "C": 16,
+    "wshader": 520
+   },
+   "p2": {
+    "shader": 707,
+    "kind": "cnx",
+    "W": 1920,
+    "H": 1080,
+    "C": 16,
+    "wshader": 543
+   },
+   "p3": {
+    "shader": 672,
+    "kind": "ds",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 535
+   },
+   "p4": {
+    "shader": 371,
+    "kind": "fnb",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 353
+   },
+   "p5": {
+    "shader": 732,
+    "kind": "fnb",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 603
+   },
+   "p6": {
+    "shader": 582,
+    "kind": "ds",
+    "W": 480,
+    "H": 270,
+    "C": 64,
+    "wshader": 673
+   },
+   "p7": {
+    "shader": 540,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 64,
+    "wshader": 689
+   },
+   "p8": {
+    "shader": 629,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 64,
+    "wshader": 601
+   },
+   "p9": {
+    "shader": 666,
+    "kind": "ct",
+    "W": 480,
+    "H": 270,
+    "C": 64,
+    "wshader": 667
+   },
+   "p10": {
+    "shader": 594,
+    "kind": "fnb",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 338
+   },
+   "p11": {
+    "shader": 498,
+    "kind": "ct",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 522
+   },
+   "p12": {
+    "shader": 571,
+    "kind": "cnx",
+    "W": 1920,
+    "H": 1080,
+    "C": 16,
+    "wshader": 614
+   }
+  },
+  "blob": "0"
+ },
+ "up1080": {
+  "offsets": "offsets_up.json",
+  "pkldir": "passes_up",
+  "passes": {
+   "p1": {
+    "shader": 393,
+    "kind": "cnx",
+    "W": 960,
+    "H": 540,
+    "C": 16,
+    "wshader": 393
+   },
+   "p2": {
+    "shader": 457,
+    "kind": "cnx",
+    "W": 960,
+    "H": 540,
+    "C": 16,
+    "wshader": 457
+   },
+   "p3": {
+    "shader": 383,
+    "kind": "ds",
+    "W": 480,
+    "H": 270,
+    "C": 32,
+    "wshader": 383
+   },
+   "p4": {
+    "shader": 688,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 32,
+    "wshader": 688
+   },
+   "p5": {
+    "shader": 447,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 32,
+    "wshader": 447
+   },
+   "p6": {
+    "shader": 673,
+    "kind": "ds",
+    "W": 240,
+    "H": 135,
+    "C": 64,
+    "wshader": 673
+   },
+   "p7": {
+    "shader": 689,
+    "kind": "fnb",
+    "W": 240,
+    "H": 135,
+    "C": 64,
+    "wshader": 689
+   },
+   "p8": {
+    "shader": 601,
+    "kind": "fnb",
+    "W": 240,
+    "H": 135,
+    "C": 64,
+    "wshader": 601
+   },
+   "p9": {
+    "shader": 667,
+    "kind": "ct",
+    "W": 240,
+    "H": 135,
+    "C": 64,
+    "wshader": 667
+   },
+   "p10": {
+    "shader": 542,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 32,
+    "wshader": 542
+   },
+   "p11": {
+    "shader": 691,
+    "kind": "ct",
+    "W": 480,
+    "H": 270,
+    "C": 32,
+    "wshader": 691
+   },
+   "p12": {
+    "shader": 390,
+    "kind": "cnx",
+    "W": 960,
+    "H": 540,
+    "C": 16,
+    "wshader": 390
+   }
+  },
+  "blob": "0x1658460"
+ },
+ "up4k": {
+  "offsets": "offsets_upm.json",
+  "pkldir": "passes_upm",
+  "passes": {
+   "p1": {
+    "shader": 439,
+    "kind": "cnx",
+    "W": 1920,
+    "H": 1080,
+    "C": 16,
+    "wshader": 393
+   },
+   "p2": {
+    "shader": 521,
+    "kind": "cnx",
+    "W": 1920,
+    "H": 1080,
+    "C": 16,
+    "wshader": 457
+   },
+   "p3": {
+    "shader": 437,
+    "kind": "ds",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 383
+   },
+   "p4": {
+    "shader": 616,
+    "kind": "fnb",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 688
+   },
+   "p5": {
+    "shader": 653,
+    "kind": "fnb",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 447
+   },
+   "p6": {
+    "shader": 582,
+    "kind": "ds",
+    "W": 480,
+    "H": 270,
+    "C": 64,
+    "wshader": 673
+   },
+   "p7": {
+    "shader": 540,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 64,
+    "wshader": 689
+   },
+   "p8": {
+    "shader": 629,
+    "kind": "fnb",
+    "W": 480,
+    "H": 270,
+    "C": 64,
+    "wshader": 601
+   },
+   "p9": {
+    "shader": 666,
+    "kind": "ct",
+    "W": 480,
+    "H": 270,
+    "C": 64,
+    "wshader": 667
+   },
+   "p10": {
+    "shader": 699,
+    "kind": "fnb",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 542
+   },
+   "p11": {
+    "shader": 620,
+    "kind": "ct",
+    "W": 960,
+    "H": 540,
+    "C": 32,
+    "wshader": 691
+   },
+   "p12": {
+    "shader": 422,
+    "kind": "cnx",
+    "W": 1920,
+    "H": 1080,
+    "C": 16,
+    "wshader": 390
+   }
+  },
+  "blob": "0x1658460"
+ }
+}
